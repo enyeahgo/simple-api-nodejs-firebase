@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Insert New User</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-8 mt-5">
+					<h4>Insert New User</h4>
+					<hr>
+					<form action="/create_user" method="POST">
+						<p>
+						<label>Full Name</label>
+						<input placeholder="Fullname" name="name" type="text" class="form-control">
+						<p>
+						<label>Email</label>
+						<input placeholder="Email" name="email" type="email" class="form-control">
+						<p>
+						<label>Mobile</label>
+						<input placeholder="Mobile" name="mobile" type="tel" class="form-control">
+						<p>
+						<button class="btn btn-lg btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	</body>
+</html>
