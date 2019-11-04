@@ -5,3 +5,5 @@ git clone <this repo>
 cd <repo folder name>
 npm install
 ```
+
+Note: Make sure you have your Firebase project's service account handy. We need to place on the <code>node_modules/firebase-admin</code> folder
