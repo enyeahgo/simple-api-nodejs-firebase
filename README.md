@@ -6,6 +6,6 @@ cd <repo folder name>
 npm install
 ```
 
-Note: Make sure you have your Firebase project's service account handy. We need to place it on the <code>node_modules/firebase-admin</code> folder
+Note: Make sure you have your Firebase project's service account handy. We need to place it in the <code>node_modules/firebase-admin</code> folder
 
 Live Demo: <a href="https://api-enliven.herokuapp.com/form.html" target="_blank">API-ENLIVEN</a>
