@@ -5,7 +5,7 @@ var serviceAccount = require("firebase-admin/service-account.json")
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://create-cheap-commerce.firebaseio.com"
+  databaseURL: "https://project-name.firebaseio.com"
 })
 
 
